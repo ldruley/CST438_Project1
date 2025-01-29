@@ -5,6 +5,7 @@
  * @format
  */
 
+
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -76,11 +77,11 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Search for Movie">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes">
+          <Section title="See Your">
             <ReloadInstructions />
           </Section>
           <Section title="Debug">
