@@ -9,7 +9,7 @@ const Registration = () => {
 
   const handleRegister = () => {
     
-    console.log('Registered: ', name, email);
+    console.log('Registered: ', name, email, password);
   };
 
   return (
